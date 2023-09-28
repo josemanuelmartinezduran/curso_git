@@ -1,0 +1,3 @@
+Comandos de git
+
+git clone <url del repositorio> nombre_carpeta
