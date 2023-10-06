@@ -1,0 +1,34 @@
+[1mdiff --git a/estilo.css b/estilo.css[m
+[1mindex e69de29..022a60d 100644[m
+[1m--- a/estilo.css[m
+[1m+++ b/estilo.css[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m.body{[m
+[32m+[m[32m    font-size:14px;[m
+[32m+[m[32m    font-family: 'Courier New', Courier, monospace;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 090ed1d..827ef9d 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -17,7 +17,8 @@[m
+                 <td>1</td>[m
+             </tr>[m
+             <tr>[m
+[31m-                <td>2</td>[m
+[32m+[m[32m                <td>2-1</td>[m
+[32m+[m[32m                <td>3</td>[m
+             </tr>[m
+         </table>[m
+     </div>[m
+[1mdiff --git a/script.js b/script.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..701bac2[m
+[1m--- /dev/null[m
+[1m+++ b/script.js[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32m() => {[m
+[32m+[m[32m    alert("Hola");[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
